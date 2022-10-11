@@ -16,6 +16,7 @@
 		4537B75328F54E1700F4C698 /* TestbedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4537B75228F54E1700F4C698 /* TestbedUITestsLaunchTests.swift */; };
 		4537B76128F54FB800F4C698 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4537B76028F54FB800F4C698 /* SnapKit */; };
 		4537B76428F54FD100F4C698 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = 4537B76328F54FD100F4C698 /* PanModal */; };
+		45EF6DDB28F57BCD00CD5456 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 45EF6DDA28F57BCD00CD5456 /* MyLibrary */; };
 		7BBD8C84193D23034CE7545E /* libPods-Testbed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ED1F406A83AB9C6B05B372 /* libPods-Testbed.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		4537B74C28F54E1700F4C698 /* TestbedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestbedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4537B75028F54E1700F4C698 /* TestbedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestbedUITests.swift; sourceTree = "<group>"; };
 		4537B75228F54E1700F4C698 /* TestbedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestbedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45EF6DD928F57BBC00CD5456 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyLibrary; sourceTree = "<group>"; };
 		85ED1F406A83AB9C6B05B372 /* libPods-Testbed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Testbed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E03BFFF504B1507CAA6241A4 /* Pods-Testbed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testbed.release.xcconfig"; path = "Target Support Files/Pods-Testbed/Pods-Testbed.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45EF6DDB28F57BCD00CD5456 /* MyLibrary in Frameworks */,
 				7BBD8C84193D23034CE7545E /* libPods-Testbed.a in Frameworks */,
 				4537B76128F54FB800F4C698 /* SnapKit in Frameworks */,
 				4537B76428F54FD100F4C698 /* PanModal in Frameworks */,
@@ -92,6 +95,7 @@
 		4537B72928F54E1600F4C698 = {
 			isa = PBXGroup;
 			children = (
+				45EF6DD828F57BBC00CD5456 /* Packages */,
 				4537B73428F54E1700F4C698 /* Testbed */,
 				4537B74528F54E1700F4C698 /* TestbedTests */,
 				4537B74F28F54E1700F4C698 /* TestbedUITests */,
@@ -147,6 +151,14 @@
 			path = TestbedUITests;
 			sourceTree = "<group>";
 		};
+		45EF6DD828F57BBC00CD5456 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				45EF6DD928F57BBC00CD5456 /* MyLibrary */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		87392459262F2E44ADD9C050 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +187,7 @@
 			packageProductDependencies = (
 				4537B76028F54FB800F4C698 /* SnapKit */,
 				4537B76328F54FD100F4C698 /* PanModal */,
+				45EF6DDA28F57BCD00CD5456 /* MyLibrary */,
 			);
 			productName = Testbed;
 			productReference = 4537B73228F54E1700F4C698 /* Testbed.app */;
@@ -701,6 +714,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4537B76228F54FD100F4C698 /* XCRemoteSwiftPackageReference "PanModal" */;
 			productName = PanModal;
+		};
+		45EF6DDA28F57BCD00CD5456 /* MyLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
