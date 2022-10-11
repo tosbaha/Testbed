@@ -1,0 +1,20 @@
+PODS:
+  - Eureka (5.4.0)
+  - SwiftGen (6.6.2)
+
+DEPENDENCIES:
+  - Eureka
+  - SwiftGen
+
+SPEC REPOS:
+  trunk:
+    - Eureka
+    - SwiftGen
+
+SPEC CHECKSUMS:
+  Eureka: fadaa9fa3d6e402d3c60f78f24edf3d7bafc9c29
+  SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
+
+PODFILE CHECKSUM: cd206ad04df5d2fc91019357a94bb53de8a1d3ce
+
+COCOAPODS: 1.11.3
